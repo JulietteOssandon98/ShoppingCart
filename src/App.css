@@ -122,6 +122,11 @@ h1 {
     border: 3px solid #73AD21;
   }
 
+  /*.image-product {
+    width: auto%;
+    height: auto%;
+  }*/
+
   .product_image {
     width: 25%;
     display: flex;

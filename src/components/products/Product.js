@@ -1,14 +1,15 @@
 import React from 'react';
 
+
 export const Product = () => {
     return (
         <div className="item_info">
             <ul className="product_list">
                 <li className="item_product row">
-                    <div className="product_description product">
+                    <div className="product_description product" >
                         <div className="product_image">
                             <button>
-                                <img className="image-product"/>
+                                <img className="image-product" src='shirt.png' alt="Producto"/>
                             </button>
                         </div>
                         <div className="product_text">
@@ -16,12 +17,12 @@ export const Product = () => {
                                 <h3>Shirt</h3>
                             </div>
                             <div className="product_description">
-                                <a>Product code X7R20PX</a>
+                                <a href="/#">Product code X7R20PX</a>
                             </div>
                         </div>
                     </div>
                     <div className="box_numbers_product">
-                        <form className="product_quantity">
+                        <form className="product_quantity" >
                             <button>-</button>
                             <input type="number" className="input_quantity" placeholder="0" ></input>
                             <button>+</button>
