@@ -8,16 +8,16 @@ export const Product = () => {
                 <li className="item_product row">
                     <div className="product_description product" >
                         <div className="product_image">
-                            <button>
-                                <img className="image-product" src='shirt.png' alt="Producto"/>
+                            <button className="img-boton">
+                                <img className="image-product" src='shirt.png'/>
                             </button>
                         </div>
                         <div className="product_text">
                             <div className="product_name">
-                                <h3>Shirt</h3>
+                                <h3>Capucha tie dye</h3>
                             </div>
                             <div className="product_description">
-                                <a href="/#">Product code X7R20PX</a>
+                                <a>Con estampado floral</a>
                             </div>
                         </div>
                     </div>
@@ -30,11 +30,11 @@ export const Product = () => {
                     </div>
                     <div className="product_price">
                         <span className="price_currency">$</span>
-                        <span className="price_number">1000</span>
+                        <span className="price_number">13.000</span>
                     </div>
                     <div className="product_total">
                         <span className="total_currency">$</span>
-                        <span className="total_number">1000</span>
+                        <span className="total_number">13.000</span>
                     </div>
                 </li>
             </ul>

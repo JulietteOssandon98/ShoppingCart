@@ -8,7 +8,7 @@
   padding: 0;
   height: 100vh;
   background-image: url('./assets/img/background.png');
-  background-color: #212240;
+  background-color: #1ad4f59a;
   background-position: top left;
   background-size: cover;
   font-family: Avenir, "Avenir Next", "Segoe UI", sans-serif;
@@ -114,31 +114,36 @@ h1 {
    }
   }
 
-  .item_product {
-    width: 100%;
-    list-style: none;
-    position: absolute;
-    left: 30px;
-    border: 3px solid #73AD21;
-  }
+ .item_info {
+   width: 100%;
+   display: flex;
+   align-items: center;
+ }
+ 
+.item_product {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
 
-  /*.image-product {
-    width: auto%;
-    height: auto%;
-  }*/
+.product_description {
+  width: 45%;
+  display: flex;
+  align-items: center;
+}
 
-  .product_image {
-    width: 25%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+.img-boton {
+  margin-right: 10px;
+  display: flex;
+  align-items: initial;
+  justify-content: center;
+}
 
-  .product_text {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+.image-product {
+  width: 100px;
+  height: 120px;
+  justify-content: left;
+}
 
 h3 {
   position: relative;
@@ -148,6 +153,7 @@ h3 {
 }
 
 a {
+  display: flex;
   letter-spacing: -0.18px;
   font-size: 18px;
   line-height: 24px;
@@ -157,4 +163,28 @@ a {
   font-size: 10px;
   line-height: 16px;
 }
-  
+
+.box_numbers_product {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input_quantity {
+  width: 35px;
+  align-items: center;
+  justify-content: center;
+}
+
+.product_price {
+  width: 20%;
+  align-items: center;
+  justify-content: center;
+}
+
+.product_total {
+  width: 15%;
+  align-items: center;
+  justify-content: center;
+}
